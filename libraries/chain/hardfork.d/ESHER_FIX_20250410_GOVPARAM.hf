@@ -1,0 +1,5 @@
+// Esher-Core: fix governance parameters
+#ifndef HARDFORK_ESHCORE_FIX_GOV_PARAM
+#define HARDFORK_ESHCORE_FIX_GOV_PARAM (fc::time_point_sec(1712188800)) // 2025-04-04T00:00:00Z
+#define HARDFORK_ESHCORE_FIX_GOV_PARAM_PASSED(t) (t >= HARDFORK_ESHCORE_FIX_GOV_PARAM)
+#endif
