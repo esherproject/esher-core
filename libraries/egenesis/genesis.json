@@ -1,5 +1,5 @@
 {
-  "initial_timestamp": "2025-03-14T10:52:00",
+  "initial_timestamp": "2025-04-04T04:12:00",
   "max_core_supply": "1000000000000000",
   "initial_parameters": {
     "current_fees": {
@@ -213,15 +213,15 @@
     "block_interval": 3,
     "maintenance_interval": 86400,
     "maintenance_skip_slots": 3,
-    "committee_proposal_review_period": 1209600,
+    "committee_proposal_review_period": 86400,
     "maximum_transaction_size": 2048,
     "maximum_block_size": 2000000,
     "maximum_time_until_expiration": 86400,
     "maximum_proposal_lifetime": 604800,
     "maximum_asset_whitelist_authorities": 10,
     "maximum_asset_feed_publishers": 10,
-    "maximum_witness_count": 1001,
-    "maximum_committee_count": 1001,
+    "maximum_witness_count": 21,
+    "maximum_committee_count": 11,
     "maximum_authority_membership": 10,
     "reserve_percent_of_fee": 2000,
     "network_percent_of_fee": 2000,
@@ -301,22 +301,6 @@
       "is_lifetime_member": true
     },
     {
-      "name": "null",
-      "owner_key": "ESHER6H6R5b4CGCrbmGhEwAvVtqKDNnKcaPGRrfSWiYkyRf7v5VjSy8",
-      "active": {
-        "weight_threshold": 1,
-        "account_auths": [],
-        "key_auths": [],
-        "address_auths": []
-      },
-      "is_lifetime_member": true
-    },
-    {
-      "name": "temp",
-      "owner_key": "ESHER1111111111111111111111111111111114T1Anm",
-      "active_key": "ESHER1111111111111111111111111111111114T1Anm",
-      "is_lifetime_member": false
-    },{
       "name": "william",
       "owner_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1",
       "active_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1",
