@@ -1579,16 +1579,6 @@ void database::perform_chain_maintenance( const signed_block& next_block )
    if ( dgpo.next_maintenance_time <= HARDFORK_CORE_2281_TIME && next_maintenance_time > HARDFORK_CORE_2281_TIME )
       process_hf_2281(*this);
 
-   // Esher hard fork: fix committee_proposal_review_period
-   if ( dgpo.next_maintenance_time <= HARDFORK_ESHCORE_FIX_GOV_PARAM && next_maintenance_time > HARDFORK_ESHCORE_FIX_GOV_PARAM )
-   {
-      modify(get_global_properties(), [&](global_property_object& gpo) {
-         if (gpo.parameters.committee_proposal_review_period > 86400) {
-            gpo.parameters.committee_proposal_review_period = 86400; // 1 day
-         }
-      });
-   }
-
    // To check call orders and potential match them with force settlements, for hard fork core-2481
    bool match_call_orders_for_hf_2481 = false;
    if( (dgpo.next_maintenance_time <= HARDFORK_CORE_2481_TIME) && (next_maintenance_time > HARDFORK_CORE_2481_TIME) )
