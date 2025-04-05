@@ -1199,7 +1199,7 @@ void application::set_program_options(boost::program_options::options_descriptio
           "is 'exclude_list' (may specify multiple times)")
          ("seed-node,s", bpo::value<vector<string>>()->composing(),
           "The endpoint (IP address:port) of the P2P peer to connect to on startup (may specify multiple times)")
-         ("seed-nodes", bpo::value<string>()->default_value("[\"158.247.235.244:29310\", \"141.164.35.104:29310\"]")->composing(),
+         ("seed-nodes", bpo::value<string>()->default_value("[\"149.28.145.13:29310\", \"202.182.125.231:29310\", \"184.174.39.162:29310\", \"45.32.118.13:29310\"]")->composing(),
          "JSON array of P2P peers to connect to on startup")
          ("checkpoint,c", bpo::value<std::vector<std::string>>()->composing(),
          "Pairs of [BLOCK_NUM,BLOCK_ID] that should be enforced as checkpoints. Example: [\"22668518\", \"0159e4e600cb149e22ef960442ca331159914617\"]")
