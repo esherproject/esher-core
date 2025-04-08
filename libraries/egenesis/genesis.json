@@ -339,7 +339,7 @@
     }
   ],
   "initial_vesting_balances": [],
-  "initial_active_witnesses": 11,
+  "initial_active_witnesses": 16,
   "initial_witness_candidates": [{
       "owner_name": "init0",
       "block_signing_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1"
