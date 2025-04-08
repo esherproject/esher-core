@@ -220,8 +220,8 @@
     "maximum_proposal_lifetime": 604800,
     "maximum_asset_whitelist_authorities": 10,
     "maximum_asset_feed_publishers": 10,
-    "maximum_witness_count": 1001,
-    "maximum_committee_count": 1001,
+    "maximum_witness_count": 21,
+    "maximum_committee_count": 11,
     "maximum_authority_membership": 10,
     "reserve_percent_of_fee": 2000,
     "network_percent_of_fee": 2000,
@@ -304,31 +304,7 @@
       "name": "william",
       "owner_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1",
       "active_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1",
-      "is_lifetime_member": true
-    },
-    {
-      "name": "esherfoundation",
-      "owner_key": "ESHER5fUcbLr957XJWzywLgRbQErWPorJQabsmA4a7EXJ4husfXCUNE",
-      "active_key": "ESHER5fUcbLr957XJWzywLgRbQErWPorJQabsmA4a7EXJ4husfXCUNE",
-      "is_lifetime_member": true
-    },
-    {
-      "name": "bocowitness",
-      "owner_key": "ESHER5oFitq65dA5vxyKwQPVfkVXFgatzBQoeSGuSYvAKRi2ZMWAnv8",
-      "active_key": "ESHER5oFitq65dA5vxyKwQPVfkVXFgatzBQoeSGuSYvAKRi2ZMWAnv8",
-      "is_lifetime_member": true
-    },
-    {
-      "name": "rigvid",
-      "owner_key": "ESHER8A7Jcpw771hwi77pJG2zR139NuVqjd1xm33ExixeMnwTYQSL4f",
-      "active_key": "ESHER8A7Jcpw771hwi77pJG2zR139NuVqjd1xm33ExixeMnwTYQSL4f",
-      "is_lifetime_member": true
-    },
-    {
-      "name": "shane",
-      "owner_key": "ESHER76wVBAQfu9PzafAoZoskRM1JVyqoyMg4xcePD9KFhBr5P7jyQe",
-      "active_key": "ESHER76wVBAQfu9PzafAoZoskRM1JVyqoyMg4xcePD9KFhBr5P7jyQe",
-      "is_lifetime_member": true
+      "is_lifetime_member": false
     }
   ],
   "initial_assets": [],
@@ -373,21 +349,6 @@
     },{
       "owner_name": "init10",
       "block_signing_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1"
-    },{
-      "owner_name": "william",
-      "block_signing_key": "ESHER4vwocpKcJDAgxEoToieEXfCPUvVwNu4VbNumHhuFcgXvoNqvb1"
-    },{
-      "owner_name": "esherfoundation",
-      "block_signing_key": "ESHER5fUcbLr957XJWzywLgRbQErWPorJQabsmA4a7EXJ4husfXCUNE"
-    },{
-      "owner_name": "bocowitness",
-      "block_signing_key": "ESHER5oFitq65dA5vxyKwQPVfkVXFgatzBQoeSGuSYvAKRi2ZMWAnv8"
-    },{
-      "owner_name": "rigvid",
-      "block_signing_key": "ESHER8A7Jcpw771hwi77pJG2zR139NuVqjd1xm33ExixeMnwTYQSL4f"
-    },{
-      "owner_name": "shane",
-      "block_signing_key": "ESHER76wVBAQfu9PzafAoZoskRM1JVyqoyMg4xcePD9KFhBr5P7jyQe"
     }
   ],
   "initial_committee_candidates": [{
